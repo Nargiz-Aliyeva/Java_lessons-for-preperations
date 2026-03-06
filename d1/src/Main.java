@@ -43,8 +43,9 @@ System.out.print("Enter your name please: ");
 String name = scanner.next();
 System.out.print("Enter your age please: ");
 int age = scanner.nextInt();
-System.out.print("Your result infprmation: " +name + " "+ (age>18));
-
+System.out.println("Your result infprmation: " +name + " "+ (age>18));
+MyFirstClass firstClass = new MyFirstClass();
+firstClass.FirstTry();
 
     }
 }
